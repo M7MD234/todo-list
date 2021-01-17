@@ -1,10 +1,10 @@
 <?php
     session_start();
-    $_SESSION['admin'] = 'M7MD234'; // here set name the admin
-    $_SESSION['domain'] = 'localhost';       // set name data base
-    $_SESSION['user'] = 'root';         // user base data
+    $_SESSION['admin'] = ''; // here set name the admin
+    $_SESSION['domain'] = '';       // set name data base
+    $_SESSION['user'] = '';         // user base data
     $_SESSION['password'] = '';     // data base password
-    $_SESSION['database-name'] = 'test'; //data base name
+    $_SESSION['database-name'] = ''; //data base name
     $conn = mysqli_connect($_SESSION['domain'] , $_SESSION['user'] , $_SESSION['password'] , $_SESSION['database-name']);
     $sql = "SELECT * FROM todolist";
     $result = mysqli_query($conn, $sql);
