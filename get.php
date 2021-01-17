@@ -1,4 +1,7 @@
 <?php
+    if($_GET['i'] == 1){
+    header("location: ".$_SERVER['HTTP_HOST']."/todo-list");
+    }
     session_start();
     $_SESSION['admin'] = ''; // here set name the admin
     $_SESSION['domain'] = '';       // set name data base
