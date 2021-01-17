@@ -1,0 +1,192 @@
+body {
+    background-color: whitesmoke;
+}
+
+.gray-1 {
+    background-color: #dee2e6;
+}
+
+.fa-check-circle {
+    font-weight: 900;
+    color: #488848;
+}
+
+.vert-bar {
+    margin: 0 10px;
+    width: 2px;
+    background-color: #737373;
+}
+
+.check {
+    color: #737373;
+    width: 32px;
+    height: 34px;
+    position: relative;
+}
+
+.check>i {
+    font-size: 32px;
+}
+
+.sub {
+    flex-grow: 1;
+    display: flex;
+    font-size: 20px;
+    color: #3e3e3e;
+}
+
+.con-tool {
+    display: flex;
+}
+
+.con-tool>div {
+    margin: 0 10px;
+    font-size: 23px;
+}
+
+.edit,
+.edit_bt {
+    color: #4dabf7;
+}
+
+.delete,
+.delete_btn,
+.btn_delete {
+    color: #dc3545;
+}
+
+.sub-n {
+    line-height: 31px;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.add-form>input {
+    border-radius: 0 5px 5px 0;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.add-form {
+    display: flex;
+}
+
+.form-icon {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-add-child {
+    flex-grow: 1;
+}
+
+.multi-collapse {
+    display: grid;
+}
+
+.case {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.add-sub {
+    border: 1px solid gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.none {
+    display: none;
+}
+
+.done_btn,
+.btn_done {
+    font-size: 23px;
+    margin: 0 0 0 10px;
+    color: #198754;
+}
+
+.border-g {
+    border: 1px solid gray;
+}
+
+.grow-1 {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.edit_btn {
+    color: #4dabf7;
+}
+
+.btn_login {
+    float: right;
+}
+
+.rpd {
+    min-width: 200px;
+}
+
+.ig-5 {
+    flex-wrap: wrap;
+}
+
+.adpv {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    margin: 5px 0 0;
+}
+
+.input-add-child {
+    line-height: 42px;
+}
+
+.oid {
+    line-height: 35px;
+    text-indent: 7px;
+    font-size: 24px;
+}
+
+.ghf {
+    font-size: 25px;
+    text-indent: 5px;
+}
+
+.check svg {
+    width: auto!important;
+    height: 100%;
+}
+
+.btn_login {
+    margin-bottom: 20px;
+}
+
+.sub {
+    max-width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+    .rpd>.col {
+        padding: 0;
+    }
+    .row>* {
+        padding: 0!important;
+    }
+    .rdp {
+        padding-left: 0px;
+        padding-right: 17px;
+        margin-right: calc(var(--bs-gutter-x)/ 0px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sub {
+        max-width: 100%;
+    }
+}
